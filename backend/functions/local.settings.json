@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "COSMOS_ENDPOINT": "your_cosmos_endpoint",
+    "COSMOS_KEY": "your_cosmos_key",
+    "DATABASE_NAME": "InventoryDB",
+    "CONTAINER_NAME": "Products"
+  }
+}
