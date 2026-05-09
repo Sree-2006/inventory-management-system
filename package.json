@@ -6,9 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "vite preview --host 0.0.0.0 --port $PORT",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "serve -s dist -l 8080",
+    "lint": "eslint ."
   },
   "dependencies": {
     "lucide-react": "^1.8.0",
@@ -16,7 +15,8 @@
     "react-dom": "^19.2.4",
     "react-hot-toast": "^2.6.0",
     "react-router-dom": "^7.14.1",
-    "recharts": "^3.8.1"
+    "recharts": "^3.8.1",
+    "serve": "^14.2.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
